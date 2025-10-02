@@ -35,6 +35,14 @@ body {
     background-color: white;
 }
 
+.white-button {
+    background-color: white;
+}
+
+.white-button:hover {
+    background-color: #F8FF23;
+}
+
 main {
     overflow: hidden;
     position: relative;
@@ -88,7 +96,7 @@ nav ul a:hover {
     color: #F8FF23;
 }
 
-phone {
+.phone {
     font-size: 14px;
     font-weight: bold;
     color: white;
@@ -132,4 +140,198 @@ phone {
     top: 78px;
     right: -576px;
     z-index: -1;
+}
+
+
+.cars {
+    background-color: black;
+    padding: 130px 0;
+}
+
+.cars h2 {
+    font-size: 65px;
+    font-weight: normal;
+}
+
+.cars-content {
+    display: flex;
+    padding-top: 60px;
+}
+
+.cars-filter {
+    margin-right: 77px;
+}
+
+.cars-filter ul {
+    display: flex;
+    row-gap: 15px;
+    flex-direction: column;
+    list-style: none;
+}
+
+.cars-filter ul li {
+    width: 127px;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid white;
+    font-size: 16px;
+    color: white;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: none;
+}
+
+.cars-filter ul li.active, .cars-filter ul li:hover {
+    border: 1px solid #F8FF23;
+    color: #F8FF23;
+}
+
+.cars-items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.car-cart {
+    display: flex;
+    padding: 20px;
+    background-color: #212121;
+    gap: 24px;
+}
+
+.car-cart img {
+    max-width: 568px;
+}
+
+.car-details {
+    /* margin-left: 24px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.car-details h4 {
+    line-height: 120%;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.car-details p {
+    font-size: 16px;
+    line-height: 120%;
+    color: #d4d4d4;
+    letter-spacing: normal;
+    height: 100px;
+}
+
+.car-action {
+    margin-top: auto;
+}
+
+.car-action ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.car-period {
+    font-size: 16px;
+    line-height: 120%;
+    margin-bottom: 5px;
+    color: #d4d4d4;
+}
+
+.car-price {
+    font-size: 24px;
+    line-height: 120%;
+
+}
+
+.car-price span {
+    font-size: 16px;
+    color: #d4d4d4;
+    line-height: 120%;
+}
+
+.car-action .button {
+    width: 100%;
+}
+
+
+.order {
+    padding-top: 150px;
+    padding-bottom: 130px;
+}
+
+.order .container {
+    position: relative;
+}
+
+.order img {
+    position: absolute;
+    top: -25px;
+    left: -530px;
+
+}
+
+.order form {
+    margin-left: 714px;
+    max-width: 486px;
+}
+
+.order h3 {
+    font-weight: normal;
+    line-height: 100%;
+    font-size: 65px;
+    margin-bottom: 40px;
+
+}
+
+.order p {
+    color: #d4d4d4;
+    font-size: 24px;
+    line-height: 120%;
+    max-width: 455px;
+    margin-bottom: 60px;
+}
+
+.order-form {
+    width: 344px;
+}
+
+::placeholder {
+    color: #d4d4d4;
+}
+
+.order-form input {
+    width: 100%;
+    height: 60px;
+    padding: 24px 20px;
+    box-sizing: border-box;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    margin-bottom: 15px;
+    font-size: 16px;
+    outline: none;
+}
+
+
+footer {
+    padding: 47px 0;
+    border-top: 1px solid #5f5f5f;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rights {
+    font-size: 14px;
+    line-height: 90%;
+    letter-spacing: normal;
+    font-weight: bold;
+    text-transform: uppercase;
 }
