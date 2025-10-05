@@ -4,7 +4,7 @@ const carsContent = document.getElementById("cars-content");
 
 filterItems.forEach(item => {
     item.onclick = () => {
-        filteItems.forEach(el => el.classList.remove("active"));
+        filterItems.forEach(el => el.classList.remove("active"));
         item.classList.add("active");
 
         const filterText = item.textContent.toLowerCase();
